@@ -758,7 +758,7 @@ export class BrowsingContext extends EventEmitter<{
         );
 
         return {
-          name: key,
+          name: key.toLowerCase(),
           value: {type: 'string', value: value},
         };
       }),
