@@ -1,5 +1,18 @@
 # Changelog
 
+## [24.31.0](https://github.com/puppeteer/puppeteer/compare/puppeteer-core-v24.30.0...puppeteer-core-v24.31.0) (2025-11-18)
+
+
+### 🎉 Features
+
+* **webdriver:** use `emulation.setNetworkConditions` for offline emulation ([#14431](https://github.com/puppeteer/puppeteer/issues/14431)) ([a9e7c1d](https://github.com/puppeteer/puppeteer/commit/a9e7c1dc7df7de10304c2f6cdd93e95de3bc0921))
+* **webdriver:** use `emulation.setUserAgentOverride` instead of network interception ([#14335](https://github.com/puppeteer/puppeteer/issues/14335)) ([e48ae6b](https://github.com/puppeteer/puppeteer/commit/e48ae6bd8ca39fc09c79f468b48b1666d5668726))
+
+
+### 🛠️ Fixes
+
+* roll to Chrome 142.0.7444.175 ([#14429](https://github.com/puppeteer/puppeteer/issues/14429)) ([839fe96](https://github.com/puppeteer/puppeteer/commit/839fe96c6f885e38b68612a7135256850ea0b39d))
+
 ## [24.30.0](https://github.com/puppeteer/puppeteer/compare/puppeteer-core-v24.29.1...puppeteer-core-v24.30.0) (2025-11-12)
 
 
